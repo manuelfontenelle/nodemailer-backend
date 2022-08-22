@@ -28,7 +28,7 @@ app.post("/form", async (req, res) => {
 
 		let info = await transporter.sendMail({
 			from: `Contact Portfolio Marc Fontenelle <${email}>`, // sender address
-			to: "manuel.fontenelle@gmail.com", // list of receivers
+			to: "marc.fontenelle.pro@gmail.com", // list of receivers
 			subject: "Contact", // Subject line
 			text: "test", // plain text body
 			html: `Message : ${message}<br/><br/> E-mail : ${email}`, // html body
